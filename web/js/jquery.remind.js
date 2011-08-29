@@ -1,5 +1,5 @@
 /* 
- *  Document   : remind
+ *  Document   : jquery.remind 提示插件
  *  Created on : 2011-7-7, 15:34:20
  *  Author     : GodSon
  *  Email      : wmails@126.com
