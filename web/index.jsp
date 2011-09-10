@@ -10,16 +10,16 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>JQuery Easyui(1.2.4)的完整demo for java</title>
-        <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/easyuiCore/themes/gray/easyui.css" />
-        <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/easyuiCore/themes/icon.css" />
-        <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/css/main.css" />
+        <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/easyui/themes/gray/easyui.css" />
+        <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/easyui/themes/icon.css" />
+        <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/style/css/main.css" />
         <script type="text/javascript" src="${pageContext.request.contextPath}/js.widget/dynamic.jsp"></script>
-        <script type="text/javascript" src="${pageContext.request.contextPath}/easyuiCore/jquery-1.6.min.js" charset="UTF-8"></script>
-        <script type="text/javascript" src="${pageContext.request.contextPath}/easyuiCore/jquery.easyui.min.js" charset="UTF-8"></script>
-        <script type="text/javascript" src="${pageContext.request.contextPath}/easyuiCore/easyui-lang-zh_CN.js" charset="UTF-8"></script>
-        <script type="text/javascript" src="${pageContext.request.contextPath}/easyuiCore/easyui.validatorMessasge.js" charset="UTF-8"></script>
-        <script type="text/javascript" src="${pageContext.request.contextPath}/js.widget/Core.js" charset="UTF-8"></script>
-        <script type="text/javascript" src="${pageContext.request.contextPath}/js.widget/G.module.js" charset="UTF-8"></script>
+        <script type="text/javascript" src="${pageContext.request.contextPath}/easyui/jquery-1.6.min.js" charset="UTF-8"></script>
+        <script type="text/javascript" src="${pageContext.request.contextPath}/easyui/jquery.easyui.min.js" charset="UTF-8"></script>
+        <script type="text/javascript" src="${pageContext.request.contextPath}/easyui/easyui-lang-zh_CN.js" charset="UTF-8"></script>
+        <script type="text/javascript" src="${pageContext.request.contextPath}/easyui/easyui.validatorMessasge.js" charset="UTF-8"></script>
+        <script type="text/javascript" src="${pageContext.request.contextPath}/js.module/Core.js" charset="UTF-8"></script>
+        <script type="text/javascript" src="${pageContext.request.contextPath}/js.module/G.module.js" charset="UTF-8"></script>
         <script>
             function closes(){
                 $("#Loading").fadeOut();
@@ -38,7 +38,7 @@
     </head>
     <body class="easyui-layout" oncontextmenu="return false">
 
-        <div id='Loading' style="position:absolute;z-index:1000;top:0px;left:0px;width:100%;height:100%;background:#DDDDDB url('images/bodybg.jpg');text-align:center;padding-top: 20%;"><h1><image src='images/loading.gif'/><font color="#15428B">加载中···</font></h1></div>
+        <div id='Loading' style="position:absolute;z-index:1000;top:0px;left:0px;width:100%;height:100%;background:#DDDDDB url('style/images/bodybg.jpg');text-align:center;padding-top: 20%;"><h1><image src='style/images/loading.gif'/><font color="#15428B">加载中···</font></h1></div>
 
         <div region="north" border="false"  split="true" style="height:60px;overflow: hidden;"><h1>JQuery Easyui(1.2.4)的完整demo for java</h1></div>
         <div region="west" split="true" style="width:40px;padding:5px 0px;background: #EFEFEF;overflow: hidden;">
