@@ -9,10 +9,10 @@
 
 G.module = {
     'main':{
-        js:'js/G.main.js'
+        js:'js.widget/G.main.js'
     },
     'portal':{
-        js:'js/portal/jquery.portal.js',
-        css:'js/portal/portal.css'
+        js:'js.widget/portal/jquery.portal.js',
+        css:'js.widget/portal/portal.css'
     }
 };
