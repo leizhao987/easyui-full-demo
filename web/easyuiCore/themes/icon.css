@@ -1,54 +1,133 @@
-.icon-blank{
-	background:url('icons/blank.gif') no-repeat;
-}
-.icon-add{
-	background:url('icons/edit_add.png') no-repeat;
-}
-.icon-edit{
-	background:url('icons/pencil.png') no-repeat;
-}
-.icon-remove{
-	background:url('icons/edit_remove.png') no-repeat;
-}
-.icon-save{
-	background:url('icons/filesave.png') no-repeat;
-}
-.icon-cut{
-	background:url('icons/cut.png') no-repeat;
-}
-.icon-ok{
-	background:url('icons/ok.png') no-repeat;
-}
-.icon-no{
-	background:url('icons/no.png') no-repeat;
-}
-.icon-cancel{
-	background:url('icons/cancel.png') no-repeat;
-}
-.icon-reload{
-	background:url('icons/reload.png') no-repeat;
-}
-.icon-search{
-	background:url('icons/search.png') no-repeat;
-}
-.icon-print{
-	background:url('icons/print.png') no-repeat;
-}
-.icon-help{
-	background:url('icons/help.png') no-repeat;
-}
-.icon-undo{
-	background:url('icons/undo.png') no-repeat;
-}
-.icon-redo{
-	background:url('icons/redo.png') no-repeat;
-}
-.icon-back{
-	background:url('icons/back.png') no-repeat;
-}
-.icon-sum{
-	background:url('icons/sum.png') no-repeat;
-}
-.icon-tip{
-	background:url('icons/tip.png') no-repeat;
-}
+.icon-blank{background:url(icons/allbgs.png) no-repeat 0px 0px;height:1px;padding-left:3px;}
+.icon-pencil{background:url(icons/allbgs.png) no-repeat 0px -1px;height:16px;padding-left:18px;}
+.icon-page-save{background:url(icons/allbgs.png) no-repeat 0px -17px;height:16px;padding-left:18px;}
+.icon-print{background:url(icons/allbgs.png) no-repeat 0px -33px;height:16px;padding-left:18px;}
+.icon-reload{background:url(icons/allbgs.png) no-repeat 0px -49px;height:16px;padding-left:18px;}
+.icon-redo{background:url(icons/allbgs.png) no-repeat 0px -65px;height:16px;padding-left:18px;}
+.icon-ok{background:url(icons/allbgs.png) no-repeat 0px -81px;height:16px;padding-left:18px;}
+.icon-newspaper{background:url(icons/allbgs.png) no-repeat 0px -97px;height:16px;padding-left:18px;}
+.icon-messager{background:url(icons/allbgs.png) no-repeat 0px -113px;height:16px;padding-left:18px;}
+.icon-no{background:url(icons/allbgs.png) no-repeat 0px -129px;height:16px;padding-left:18px;}
+.icon-male{background:url(icons/allbgs.png) no-repeat 0px -145px;height:16px;padding-left:18px;}
+.icon-note{background:url(icons/allbgs.png) no-repeat 0px -161px;height:16px;padding-left:18px;}
+.icon-user{background:url(icons/allbgs.png) no-repeat 0px -177px;height:16px;padding-left:18px;}
+.icon-undo{background:url(icons/allbgs.png) no-repeat 0px -193px;height:16px;padding-left:18px;}
+.icon-user-go{background:url(icons/allbgs.png) no-repeat 0px -209px;height:16px;padding-left:18px;}
+.icon-white-word{background:url(icons/allbgs.png) no-repeat 0px -225px;height:16px;padding-left:18px;}
+.icon-user-group{background:url(icons/allbgs.png) no-repeat 0px -241px;height:16px;padding-left:18px;}
+.icon-transmit{background:url(icons/allbgs.png) no-repeat 0px -257px;height:16px;padding-left:18px;}
+.icon-server-database{background:url(icons/allbgs.png) no-repeat 0px -273px;height:16px;padding-left:18px;}
+.icon-search{background:url(icons/allbgs.png) no-repeat 0px -289px;height:16px;padding-left:18px;}
+.icon-sum{background:url(icons/allbgs.png) no-repeat 0px -305px;height:16px;padding-left:18px;}
+.icon-television{background:url(icons/allbgs.png) no-repeat 0px -321px;height:16px;padding-left:18px;}
+.icon-sysset{background:url(icons/allbgs.png) no-repeat 0px -337px;height:16px;padding-left:18px;}
+.icon-mail{background:url(icons/allbgs.png) no-repeat 0px -353px;height:16px;padding-left:18px;}
+.icon-desktop{background:url(icons/allbgs.png) no-repeat 0px -369px;height:16px;padding-left:18px;}
+.icon-delete{background:url(icons/allbgs.png) no-repeat 0px -385px;height:16px;padding-left:18px;}
+.icon-edit-add{background:url(icons/allbgs.png) no-repeat 0px -401px;height:16px;padding-left:18px;}
+.icon-accept{background:url(icons/allbgs.png) no-repeat 0px -417px;height:16px;padding-left:18px;}
+.icon-edit-remove{background:url(icons/allbgs.png) no-repeat 0px -433px;height:16px;padding-left:18px;}
+.icon-cut{background:url(icons/allbgs.png) no-repeat 0px -449px;height:16px;padding-left:18px;}
+.icon-arrow-join{background:url(icons/allbgs.png) no-repeat 0px -465px;height:16px;padding-left:18px;}
+.icon-application-view-detail{background:url(icons/allbgs.png) no-repeat 0px -481px;height:16px;padding-left:18px;}
+.icon-back{background:url(icons/allbgs.png) no-repeat 0px -497px;height:16px;padding-left:18px;}
+.icon-cancel{background:url(icons/allbgs.png) no-repeat 0px -513px;height:16px;padding-left:18px;}
+.icon-bbs{background:url(icons/allbgs.png) no-repeat 0px -529px;height:16px;padding-left:18px;}
+.icon-hammer-screwdriver{background:url(icons/allbgs.png) no-repeat 0px -545px;height:16px;padding-left:18px;}
+.icon-folder-table{background:url(icons/allbgs.png) no-repeat 0px -561px;height:16px;padding-left:18px;}
+.icon-email-go{background:url(icons/allbgs.png) no-repeat 0px -577px;height:16px;padding-left:18px;}
+.icon-help{background:url(icons/allbgs.png) no-repeat 0px -593px;height:16px;padding-left:18px;}
+.icon-folder-palette{background:url(icons/allbgs.png) no-repeat 0px -609px;height:16px;padding-left:18px;}
+.icon-filesave{background:url(icons/allbgs.png) no-repeat 0px -625px;height:16px;padding-left:18px;}
+.icon-female{background:url(icons/allbgs.png) no-repeat 0px -641px;height:16px;padding-left:18px;}
+.icon-folder-page{background:url(icons/allbgs.png) no-repeat 0px -657px;height:16px;padding-left:18px;}
+.icon-folder{background:url(icons/allbgs.png) no-repeat 0px -673px;height:16px;padding-left:18px;}
+.icon-newFlow{background:url(icons/allbgs.png) no-repeat 0px -689px;height:17px;padding-left:20px;}
+.icon-group{background:url(icons/group.png) no-repeat}
+.icon-notice_manage{background:url(icons/notice_manage.png) no-repeat}
+.icon-news_manage{background:url(icons/news_manage.png) no-repeat}
+.icon-news_manage{background:url(icons/news_manage.png) no-repeat}
+.icon-bbs_manage{background:url(icons/bbs_manage.png) no-repeat}
+.icon-phonebook{background:url(icons/phonebook.png) no-repeat}
+.icon-information_manage{background:url(icons/information_manage.gif) no-repeat}
+.icon-resource_manage{background:url(icons/resource_manage.png) no-repeat}
+.icon-archive_in{background:url(icons/archive_in.png) no-repeat}
+.icon-archive_out{background:url(icons/archive_out.png) no-repeat}
+.icon-archive_manage{background:url(icons/archive_manage.gif) no-repeat}
+.icon-car{background:url(icons/car.png) no-repeat}
+.icon-meeting{background:url(icons/meeting.jpg) no-repeat}
+.icon-lectureHall{background:url(icons/lectureHall.png) no-repeat}
+.icon-department{background:url(icons/department.png) no-repeat}
+.icon-enterprise{background:url(icons/enterprise.png) no-repeat}
+.icon-user_manage{background:url(icons/user_manage.png) no-repeat}
+.icon-department_manage{background:url(icons/department_manage.png) no-repeat}
+.icon-role_manage{background:url(icons/role_manage.png) no-repeat}
+.icon-affairs{background:url(icons/affairs.png) no-repeat}
+.icon-system_manage{background:url(icons/system_manage.png) no-repeat}
+.icon-systemSet{background:url(icons/systemSet.png) no-repeat}
+.icon-systemLog{background:url(icons/systemLog.png) no-repeat}
+.icon-module_manage{background:url(icons/module_manage.png) no-repeat}
+.icon-flowManage{background:url(icons/flowManage.png) no-repeat}
+
+.icon-archive_draft{background:url(icons/archive_draft.png) no-repeat}
+.icon-archiveDraft_manage{background:url(icons/archiveDraft_manage.png) no-repeat}
+.icon-archiveIn{background:url(icons/archiveIn.png) no-repeat}
+.icon-archiveOut{background:url(icons/archiveOut.png) no-repeat}
+.icon-archiveOut_draft{background:url(icons/archiveOut_draft.png) no-repeat}
+.icon-archiveOutDraft_manage{background:url(icons/archiveOutDraft_manage.png) no-repeat}
+.icon-affair_apply{background:url(icons/affair_apply.gif) no-repeat}
+.icon-car_apply{background:url(icons/car_apply.png) no-repeat}
+.icon-meeting_apply{background:url(icons/meeting_apply.png) no-repeat}
+.icon-seal_apply{background:url(icons/seal_apply.gif) no-repeat}
+.icon-task_plan{background:url(icons/task_plan.png) no-repeat}
+.icon-schedule_manage{background:url(icons/schedule_manage.png) no-repeat}
+.icon-schedule_task{background:url(icons/schedule_task.png) no-repeat}
+
+.icon-mail_draft{background:url(icons/mail_draft.png) no-repeat}
+.icon-mail_outbox{background:url(icons/mail_outbox.png) no-repeat}
+.icon-mail_receive{background:url(icons/mail_receive.gif) no-repeat}
+.icon-mail_rubbish{background:url(icons/mail_rubbish.gif) no-repeat}
+.icon-mail_send{background:url(icons/mail_send.png) no-repeat}
+
+.icon-message_send{background:url(icons/message_send.png) no-repeat}
+.icon-message_deleteBox{background:url(icons/message_deleteBox.png) no-repeat}
+.icon-message_sendBox{background:url(icons/message_sendBox.png) no-repeat}
+.icon-message_receiveBox{background:url(icons/message_receiveBox.png) no-repeat}
+
+.icon-book_magazine{background:url(icons/book_magazine.png) no-repeat}
+.icon-contact_book{background:url(icons/contact_book.png) no-repeat}
+.icon-car_info{background:url(icons/car_info.png) no-repeat}
+.icon-meetingRoom{background:url(icons/meetingRoom.png) no-repeat}
+.icon-myTools{background:url(icons/myTools.png) no-repeat}
+.icon-office_supply{background:url(icons/office_supply.png) no-repeat}
+
+.icon-completely_remove{background:url(icons/completely_remove.png) no-repeat}
+.icon-forward{background:url(icons/forward.png) no-repeat}
+.icon-haveRead{background:url(icons/mail_haveRead.png) no-repeat}
+
+.icon-clear{background:url(icons/clear.png) no-repeat}
+
+.icon-up{background:url(icons/up.png) no-repeat}
+.icon-down{background:url(icons/down.png) no-repeat}
+
+.icon-moveto{background:url(icons/moveto.png) no-repeat}
+.icon-newFolder{background:url(icons/newFolder.png) no-repeat}
+.icon-packageDownload{background:url(icons/packageDownload.png) no-repeat}
+.icon-preview{background:url(icons/preview.png) no-repeat}
+.icon-rename{background:url(icons/rename.png) no-repeat}
+.icon-sendAttachments{background:url(icons/sendAttachments.png) no-repeat}
+.icon-download{background:url(icons/download.png) no-repeat}
+.icon-share{background:url(icons/share.png) no-repeat}
+.icon-upload{background:url(icons/upload.png) no-repeat}
+.icon-plus{background:url(icons/plus.png) no-repeat}
+.icon-minus{background:url(icons/minus.png) no-repeat}
+ 
+ /* 上一级 */
+.icon-onA{background:url(icons/onA.png) no-repeat}
+ /*文档库*/
+.icon-docLibrary{background:url(icons/docLibrary.png) no-repeat}
+ /*印章管理*/
+.icon-sealManage{background:url(icons/sealManage.png) no-repeat}
+ /*查看详情*/
+.icon-viewDetail{background:url(icons/viewDetail.png) no-repeat}
+.icon-monitor{background:url(icons/monitor.png) no-repeat}
