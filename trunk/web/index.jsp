@@ -22,7 +22,9 @@
         <script type="text/javascript" src="${pageContext.request.contextPath}/js.module/G.module.js" charset="UTF-8"></script>
         <script>
             function closes(){
-                $("#Loading").fadeOut();
+                $("#Loading").fadeOut("normal",function(){
+                    $(this).remove();
+                });
             }
             var pc;
             $.parser.onComplete = function(){
