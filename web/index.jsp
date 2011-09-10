@@ -13,13 +13,13 @@
         <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/easyuiCore/themes/gray/easyui.css" />
         <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/easyuiCore/themes/icon.css" />
         <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/css/main.css" />
-        <script type="text/javascript" src="${pageContext.request.contextPath}/js/dynamic.jsp"></script>
+        <script type="text/javascript" src="${pageContext.request.contextPath}/js.widget/dynamic.jsp"></script>
         <script type="text/javascript" src="${pageContext.request.contextPath}/easyuiCore/jquery-1.6.min.js" charset="UTF-8"></script>
         <script type="text/javascript" src="${pageContext.request.contextPath}/easyuiCore/jquery.easyui.min.js" charset="UTF-8"></script>
         <script type="text/javascript" src="${pageContext.request.contextPath}/easyuiCore/easyui-lang-zh_CN.js" charset="UTF-8"></script>
         <script type="text/javascript" src="${pageContext.request.contextPath}/easyuiCore/easyui.validatorMessasge.js" charset="UTF-8"></script>
-        <script type="text/javascript" src="${pageContext.request.contextPath}/js/Core.js" charset="UTF-8"></script>
-        <script type="text/javascript" src="${pageContext.request.contextPath}/js/G.module.js" charset="UTF-8"></script>
+        <script type="text/javascript" src="${pageContext.request.contextPath}/js.widget/Core.js" charset="UTF-8"></script>
+        <script type="text/javascript" src="${pageContext.request.contextPath}/js.widget/G.module.js" charset="UTF-8"></script>
         <script>
             function closes(){
                 $("#Loading").fadeOut();
