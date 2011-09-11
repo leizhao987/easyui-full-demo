@@ -8,13 +8,13 @@
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <div id="portal" style="position:relative">
-    <div>
+    <div style="width: 30%">
         <div title="信息" style="height: 300px"></div>
     </div>
-    <div>
+    <div  style="width: 30%">
         <div  title="信息" style="height: 300px"></div>
     </div>
-     <div>
+     <div style="width: 30%">
         <div  title="信息" style="height: 300px"></div>
     </div>
 </div>

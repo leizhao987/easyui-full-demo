@@ -18,6 +18,7 @@
         <script type="text/javascript" src="${pageContext.request.contextPath}/easyui/jquery.easyui.min.js" charset="UTF-8"></script>
         <script type="text/javascript" src="${pageContext.request.contextPath}/easyui/easyui-lang-zh_CN.js" charset="UTF-8"></script>
         <script type="text/javascript" src="${pageContext.request.contextPath}/easyui/easyui.validatorMessasge.js" charset="UTF-8"></script>
+       <script type="text/javascript" src="${pageContext.request.contextPath}/js.module/GlobalExpansion.js" charset="UTF-8"></script>
         <script type="text/javascript" src="${pageContext.request.contextPath}/js.module/Core.js" charset="UTF-8"></script>
         <script type="text/javascript" src="${pageContext.request.contextPath}/js.module/G.module.js" charset="UTF-8"></script>
         <script>
