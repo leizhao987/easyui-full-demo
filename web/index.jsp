@@ -13,7 +13,7 @@
         <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/easyui/themes/gray/easyui.css" />
         <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/easyui/themes/icon.css" />
         <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/style/css/main.css" />
-        <script type="text/javascript" src="${pageContext.request.contextPath}/js.widget/dynamic.jsp"></script>
+        <script type="text/javascript" src="${pageContext.request.contextPath}/js.module/dynamic.jsp"></script>
         <script type="text/javascript" src="${pageContext.request.contextPath}/easyui/jquery-1.6.min.js" charset="UTF-8"></script>
         <script type="text/javascript" src="${pageContext.request.contextPath}/easyui/jquery.easyui.min.js" charset="UTF-8"></script>
         <script type="text/javascript" src="${pageContext.request.contextPath}/easyui/easyui-lang-zh_CN.js" charset="UTF-8"></script>
