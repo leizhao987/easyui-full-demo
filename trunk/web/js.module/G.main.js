@@ -14,6 +14,19 @@ G.nameSpace('main',function(){
         $('body').layout("panel","south").parent().unbind();
         $('body').layout("panel","west").parent().unbind();
         
+        G.importMD('powerFloat',function(){
+            $(".tipTrigger").powerFloat({
+                offsets: {
+                    x: -2,
+                    y: 22
+                },
+                hoverHold: false,
+                targetMode: "tip",
+                targetAttr: "tip",
+                position: "2-1"
+            }); 
+        });
+        
         InitNavit();
     }
     

@@ -14,5 +14,9 @@ G.module = {
     'portal':{
         js:'js.widget/portal/jquery.portal.js',
         css:'js.widget/portal/portal.css'
+    },
+    'powerFloat':{
+        js:'js.widget/powerFloat/jquery.powerFloat.min.js',
+        css:'js.widget/powerFloat/powerFloat.css'
     }
 };

@@ -44,16 +44,16 @@
 
         <div region="north" border="false"  split="true" style="height:60px;overflow: hidden;"><h1>JQuery Easyui(1.2.4)的完整demo for java</h1></div>
         <div region="west" split="true" style="width:40px;padding:5px 0px;overflow: hidden;" class="westhbg">
-            <a href="javascript:void(0)" iconCls="icon-application-view-detail" title="快速导航" plain ="true"  class="easyui-linkbutton"></a>
+            <a href="javascript:void(0)" iconCls="icon-application-view-detail" tip="快速导航" plain ="true"  class="easyui-linkbutton tipTrigger"></a>
             <hr/>
-            <a href="javascript:void(0)" module="mail" iconCls="icon-mail_send" title="发送邮件" plain ="true"  class="easyui-linkbutton addBtn"></a>
-            <a href="javascript:void(0)" module="message" iconCls="icon-message_send" title="发送消息" plain ="true"  class="easyui-linkbutton addBtn"></a>
+            <a href="javascript:void(0)" module="mail" iconCls="icon-mail_send" tip="发送邮件" plain ="true"  class="easyui-linkbutton addBtn tipTrigger"></a>
+            <a href="javascript:void(0)" module="message" iconCls="icon-message_send" tip="发送消息" plain ="true"  class="easyui-linkbutton addBtn tipTrigger"></a>
             <hr></hr>
-            <a href="javascript:void(0)" iconCls="icon-newspaper" title="新闻" plain ="true" nav="信息" url="/i_news/news.do"  class="easyui-linkbutton fastBtn"></a>
-            <a href="javascript:void(0)" iconCls="icon-schedule_manage" title="日程管理" nav="事务" url="/a_schedule/index.do"  plain ="true"  class="easyui-linkbutton fastBtn"></a>
-            <a href="javascript:void(0)" iconCls="icon-myTools" title="百宝箱" plain ="true" nav="资源" url="/r_mytools/mytools_list.do"    class="easyui-linkbutton fastBtn"></a>
-            <a href="javascript:void(0)" iconCls="icon-notice_manage" title="公告管理" plain ="true" nav="管理" url="/i_notice/notice_manage.do"    class="easyui-linkbutton fastBtn"></a>
-            <a href="javascript:void(0)" iconCls="icon-department_manage" title="部门管理" plain ="true" nav="管理" url="/m_org/department/department_manage.do"    class="easyui-linkbutton fastBtn"></a>
+            <a href="javascript:void(0)" iconCls="icon-newspaper" tip="新闻" plain ="true" nav="信息" url="/i_news/news.do"  class="easyui-linkbutton fastBtn tipTrigger"></a>
+            <a href="javascript:void(0)" iconCls="icon-schedule_manage" tip="日程管理" nav="事务" url="/a_schedule/index.do"  plain ="true"  class="easyui-linkbutton fastBtn tipTrigger"></a>
+            <a href="javascript:void(0)" iconCls="icon-myTools" tip="百宝箱" plain ="true" nav="资源" url="/r_mytools/mytools_list.do"    class="easyui-linkbutton fastBtn tipTrigger"></a>
+            <a href="javascript:void(0)" iconCls="icon-notice_manage" tip="公告管理" plain ="true" nav="管理" url="/i_notice/notice_manage.do"    class="easyui-linkbutton fastBtn tipTrigger"></a>
+            <a href="javascript:void(0)" iconCls="icon-department_manage" tip="部门管理" plain ="true" nav="管理" url="/m_org/department/department_manage.do"    class="easyui-linkbutton fastBtn tipTrigger"></a>
         </div>
         <div region="south"  split="true" border="false" class="northbg" style="height:35px;line-height: 25px; text-align: center;padding: 2px;overflow: hidden;">
             <div style="float: left;">
