@@ -51,7 +51,7 @@ G.nameSpace('main',function(){
         });
         
         $("#btn_s_setting").click(function(){
-            MainCenterChange(__rootPath+'page.module/system/system.jsp','系统设置');
+            MainCenterChange(__rootPath+'/page.module/system/system.jsp','系统设置');
         });
     }
     
