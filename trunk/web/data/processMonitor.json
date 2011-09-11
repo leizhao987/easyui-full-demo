@@ -1,0 +1,32 @@
+{
+    "total":3,
+    "rows":[{
+        "flowNum":"A1001",
+        "name":"发文申请1",
+        "applyUser":"发文申请",
+        "statu":"正在审批",
+        "applyDate":1308298388660,
+        "manage":"<a class='easyui-linkbutton'>查阅</a> <a class='easyui-linkbutton'>催办</a>"
+    },{
+        "flowNum":"A1002",
+        "name":"请假申请1",
+        "applyUser":"发文申请",
+        "statu":"正在审批",
+        "applyDate":1308298388660,
+        "manage":"<a class='easyui-linkbutton'>查阅</a> <a class='easyui-linkbutton'>催办</a>"
+    },{
+        "flowNum":"A1003",
+        "name":"发文申请2",
+        "applyUser":"发文申请",
+        "statu":"正在审批",
+        "applyDate":1308298388660,
+        "manage":"<a class='easyui-linkbutton'>查阅</a> <a class='easyui-linkbutton'>催办</a>"
+    },{
+        "flowNum":"A1004",
+        "name":"报销申请",
+        "applyUser":"发文申请",
+        "statu":"正在审批",
+        "applyDate":1308298388660,
+        "manage":"<a class='easyui-linkbutton'>查阅</a> <a class='easyui-linkbutton'>催办</a>"
+    }]
+}

@@ -9,14 +9,15 @@
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <div class="easyui-layout" fit="true"  border="false">
-    <div region="west" style="width: 160px; border-bottom: none;border-left: none;border-top: none;">
+    <div region="west" style="width: 160px;">
         <div class="easyui-navigation">
-            <div title="菜单/导航" iconCls="icon-folder-page" href="/s_setting/menu/menu_index.do"></div>
-            <div title="系统日志" iconCls="icon-systemLog" href="/s_setting/log/log.do"></div>
-            <div title="单位管理" iconCls="icon-enterprise" href="/s_setting/enterprise/detail.do"></div>
-            <div title="系统参数" iconCls="icon-folder-page" href="/s_setting/config/config.do"></div>
-            <div title="功能管理" iconCls="icon-folder-page" href="/s_setting/function/function.do"></div>
+            <div title="菜单/导航" class="easyui-navigation-select" iconCls="icon-folder-page" href="${pageContext.request.contextPath}/page.module/system/menu.jsp"></div>   
+            <div title="功能管理" iconCls="icon-folder-page" href="${pageContext.request.contextPath}/page.module/system/function.jsp"></div>
+            <div title="成员管理" iconCls="icon-folder-page" href="${pageContext.request.contextPath}/page.module/system/config.jsp"></div>
+            <div title="角色/权限" iconCls="icon-folder-page" href="${pageContext.request.contextPath}/page.module/system/config.jsp"></div>
+            <div title="系统参数" iconCls="icon-folder-page" href="${pageContext.request.contextPath}/page.module/system/config.jsp"></div>
+            <div title="系统日志" iconCls="icon-systemLog" href="${pageContext.request.contextPath}/page.module/system/log.jsp"></div>
         </div>
     </div>
-    <div region="center"  border="false" title="菜单/导航" href="${pageContext.request.contextPath}/s_setting/menu/menu_index.do"> </div>
+            <div region="center" style="padding: 5px;" iconCls="icon-folder-page" title="菜单/导航" href="${pageContext.request.contextPath}/page.module/system/menu.jsp"> </div>
 </div>

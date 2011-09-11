@@ -1,0 +1,36 @@
+{
+    "total":3,
+    "rows":[{
+        "groupName":"公文类",
+        "processUser":"lixic",
+        "processName":"发文申请",
+        "description":"发文申请",
+        "applyDate":1308298388660,
+        "state":"无限制",
+        "id":"<a class='easyui-linkbutton'>审批</a> <a class='easyui-linkbutton'>代办</a>"
+    },{
+        "groupName":"公文类",
+        "processUser":"lixic",
+        "processName":"发文申请",
+        "description":"发文申请",
+        "applyDate":1308298388660,
+        "state":"无限制",
+        "id":"<a class='easyui-linkbutton'>审批</a> <a class='easyui-linkbutton'>代办</a>"
+    },{
+        "groupName":"财务类",
+        "processUser":"lixic",
+        "processName":"报销申请",
+        "description":"报销申请",
+        "applyDate":1308298388660,
+        "state":"无限制",
+        "id":"<a class='easyui-linkbutton'>审批</a> <a class='easyui-linkbutton'>代办</a>"
+    },{
+        "groupName":"行政类",
+        "processUser":"lixic",
+        "processName":"印章申请",
+        "description":"印章申请",
+        "applyDate":1308298388660,
+        "state":"无限制",
+        "id":"<a class='easyui-linkbutton'>审批</a> <a class='easyui-linkbutton'>代办</a>"
+    }]
+}

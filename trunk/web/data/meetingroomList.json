@@ -1,0 +1,16 @@
+{
+    "total":3,
+    "rows":[{
+        "carNum":"A12386",
+        "carSpace":"50",
+        "carStatu":"占用"
+    },{
+        "carNum":"B12333",
+        "carSpace":"10",
+        "carStatu":"空闲"
+    },{
+         "carNum":"C12S86",
+        "carSpace":"20",
+        "carStatu":"空闲"
+    }]
+}
