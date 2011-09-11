@@ -183,7 +183,11 @@ var G = (function(){
             });
         },
         msg:function(content,icon){
-             $.remind({msg:content,icon:icon||"success",title:"系统提示"});
+            $.remind({
+                msg:content,
+                icon:icon||"success",
+                title:"系统提示"
+            });
         },
         grid:function(config){
             //默认配置
@@ -191,6 +195,7 @@ var G = (function(){
                 loadMsg: "加载中,请稍后……",
                 fit: true,
                 search:true,
+                border:'false',
                 nowrap: true,
                 striped: false,
                 remoteSort: true,
@@ -204,13 +209,7 @@ var G = (function(){
             };
             
             config = $.extend({}, defaultConfig, config || {});
-            var target;
-           
-            if(config.id){
-                target = $('#'+config.id);
-            }else{
-                target = $('.'+config.cls,G.config.container);
-            }
+            var target = $('#'+config.id);
             
             if(config.search){
                 config.toolbar.push("-");
@@ -219,11 +218,12 @@ var G = (function(){
                     iconCls : "icon-search",
                     handler : function() {
                         G.window({
-                            url:__rootPath+"/widget/jsp/search.jsp",
+                            url:__rootPath+"/js.widget/jsp/search.jsp",
                             title:"检索",
                             minimizable: false,
                             collapsible: true,
                             noState:true,
+                            modal:false,
                             iconCls : "icon-search",
                             target:target.parent(),
                             align:"tright",
@@ -232,6 +232,17 @@ var G = (function(){
                                 iconCls : "icon-search",
                                 handler:function(){
                                             
+                                }
+                            }],
+                            toolbar:[{
+                                iconCls : "icon-plus",
+                                handler:function(){
+                                    G.getNs("search").add();
+                                }   
+                            },{
+                                iconCls : "icon-minus",
+                                handler:function(){
+                                    G.getNs("search").del();   
                                 }
                             }],
                             onComplete:function(){
@@ -300,7 +311,7 @@ var G = (function(){
                     iconCls : "icon-search",
                     handler : function() {
                         G.window({
-                            url:__rootPath+"/widget/jsp/search.jsp",
+                            url:__rootPath+"/js.widget/jsp/search.jsp",
                             title:"检索",
                             minimizable: false,
                             collapsible: true,

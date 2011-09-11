@@ -1,0 +1,55 @@
+[{
+		"text" : "信息中心",
+		"id" : 2,
+		"iconCls" : "icon-module_manage",
+		"children" : [{
+				"text" : "公告",
+				"id" : 1,
+				"iconCls" : "icon-module_manage"
+			}, {
+				"text" : "新闻",
+				"id" : 2,
+				"iconCls" : "icon-module_manage"
+			}, {
+				"text" : "邮件",
+				"id" : 3,
+				"iconCls" : "icon-module_manage"
+			}, {
+				"text" : "BBS",
+				"id" : 4,
+				"iconCls" : "icon-module_manage"
+			}, {
+				"text" : "消息",
+				"id" : 5,
+				"iconCls" : "icon-module_manage"
+				
+			}
+		]
+	}, {
+		"text" : "资源中心",
+		"id" : 40,
+		"iconCls" : "icon-module_manage",
+		"children" : [{
+				"text" : "通讯录",
+				"id" : 41,
+				"iconCls" : "icon-module_manage"
+			}, {
+				"text" : "百宝箱",
+				"id" : 42,
+				"iconCls" : "icon-module_manage"
+			}, {
+				"text" : "个人网盘",
+				"id" : 43,
+				"iconCls" : "icon-module_manage"
+			}, {
+				"text" : "BBS",
+				"id" : 44,
+				"iconCls" : "icon-module_manage"
+			}, {
+				"text" : "消息",
+				"id" : 45,
+				"iconCls" : "icon-module_manage"
+			}
+		]
+	}
+] 

@@ -1,0 +1,14 @@
+{
+    "total":2,
+    "rows":[{
+        "type":"公告",
+        "englishName":"notice",
+        "creatMan":"anonymous",
+        "createDate":1308298388660
+    },{
+        "type":"请假",
+        "englishName":"leave",
+        "creatMan":"anonymous",
+        "createDate":1308298388660
+    }]
+}

@@ -1,0 +1,19 @@
+{
+    "total":3,
+    "rows":[{
+        "processName":"车辆申请",
+        "description":"车辆申请",
+        "applyDate":1308298388660,
+        "state":1
+    },{
+        "processName":"会议申请",
+        "description":"会议申请",
+        "applyDate":1308298388660,
+        "state":0
+    },{
+        "processName":"印章申请",
+        "description":"印章申请",
+        "applyDate":1308298388660,
+        "state":1
+    }]
+}

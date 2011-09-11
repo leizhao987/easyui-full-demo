@@ -18,5 +18,8 @@ G.module = {
     'powerFloat':{
         js:'js.widget/powerFloat/jquery.powerFloat.min.js',
         css:'js.widget/powerFloat/powerFloat.css'
+    },
+    'search':{
+        js:'js.widget/search.js'
     }
 };

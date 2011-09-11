@@ -1531,3 +1531,30 @@ a.s-btn-plain-active .s-btn-downarrow{
 .westhbg{
     background: url(images/panel_title_h.jpg) repeat-y;
 }
+
+.easyui-navigation-item{
+    height: 30px;
+    line-height: 30px;
+    padding-left: 5px;
+    cursor: pointer;
+    margin-top: -1px;
+}
+.easyui-navigation{
+    background: #EFEFEF;
+}
+.navigation-sep {
+    background: url("images/menu_sep.png") repeat-x scroll 0 0 transparent;
+    font-size: 2px;
+    line-height: 2px;
+    margin: 3px 0;
+}
+.easyui-navigation-over{
+    background: #E0ECFF;
+    border-bottom: 1px #8DB2E3 solid;
+    border-top:1px #8DB2E3 solid;
+}
+.easyui-navigation-select{
+    background: #D2E0F2;
+    font-weight: bolder;
+    color: #15428B;
+}
