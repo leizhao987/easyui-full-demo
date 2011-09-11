@@ -43,7 +43,7 @@
         <div id='Loading' style="position:absolute;z-index:1000;top:0px;left:0px;width:100%;height:100%;background:#DDDDDB url('style/images/bodybg.jpg');text-align:center;padding-top: 20%;"><h1><image src='style/images/loading.gif'/><font color="#15428B">加载中···</font></h1></div>
 
         <div region="north" border="false"  split="true" style="height:60px;overflow: hidden;"><h1>JQuery Easyui(1.2.4)的完整demo for java</h1></div>
-        <div region="west" split="true" style="width:40px;padding:5px 0px;background: #EFEFEF;overflow: hidden;">
+        <div region="west" split="true" style="width:40px;padding:5px 0px;overflow: hidden;" class="westhbg">
             <a href="javascript:void(0)" iconCls="icon-application-view-detail" title="快速导航" plain ="true"  class="easyui-linkbutton"></a>
             <hr/>
             <a href="javascript:void(0)" module="mail" iconCls="icon-mail_send" title="发送邮件" plain ="true"  class="easyui-linkbutton addBtn"></a>
@@ -55,13 +55,15 @@
             <a href="javascript:void(0)" iconCls="icon-notice_manage" title="公告管理" plain ="true" nav="管理" url="/i_notice/notice_manage.do"    class="easyui-linkbutton fastBtn"></a>
             <a href="javascript:void(0)" iconCls="icon-department_manage" title="部门管理" plain ="true" nav="管理" url="/m_org/department/department_manage.do"    class="easyui-linkbutton fastBtn"></a>
         </div>
-        <div region="south"  split="true" border="false" style="height:35px;line-height: 25px; text-align: center;padding: 2px;overflow: hidden;">
+        <div region="south"  split="true" border="false" class="northbg" style="height:35px;line-height: 25px; text-align: center;padding: 2px;overflow: hidden;">
             <div style="float: left;">
                 <a href="javascript:void(0)" id="btn_p_setting" iconCls="icon-user-group" plain ="true" class="easyui-linkbutton">个人设置</a>
+                |
                 <a href="javascript:void(0)" id="btn_s_setting"  iconCls="icon-user-group" plain ="true" class="easyui-linkbutton">系统设置</a>
             </div>
             <a href="http://www.btboys.com" target="_blank">GodSon | 时光记录生活</a>
             <div style="float: right;">
+                <a href="javascript:void(0)" id="btn_extand" iconCls="layout-button-up" plain ="true"  class="easyui-linkbutton">收缩</a>
                 <select id="sele_change_theme" class="easyui-combobox" style="width: 80px;" panelHeight="85" editable="flase">
                     <option value="">切换皮肤</option>  
                     <option value="defalut">蓝色</option>  
@@ -71,7 +73,7 @@
         </div>
         <div region="center">
             <div class="easyui-layout" fit="true" id="Main_content_layout">
-                <div region="north" style="height:35px;background: #EFEFEF;padding: 2px 0;overflow: hidden;" border="false">
+                <div region="north" style="height:35px;padding: 2px 0;overflow: hidden;" border="false">
                     <input class="easyui-searchbox"  prompt="请输入关键字" menu="#s_menu" style="width:200px"/>
                     <div id="s_menu" style="width:120px">
                         <div name="all">全局</div>

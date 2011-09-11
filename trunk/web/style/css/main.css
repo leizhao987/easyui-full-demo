@@ -45,15 +45,27 @@ body > .layout-panel-center {
 }
 .searchbox{
     padding-top: 3px;
-    background: #EFEFEF;
+    background: none;
     border: none;
 }
 .searchbox-button{
     margin-top: 3px; 
     margin-left: 5px;
 }
+.searchbox a.l-btn-plain{
+    background: none;
+}
 .panel-body{
    background-color: #F6F6F6;
 }
-
+.combo-arrow{
+    margin-top: 2px;
+}
+.combo{
+    background: none;
+    border: none;
+}
+.combo input{
+    height: 20px;
+}
 

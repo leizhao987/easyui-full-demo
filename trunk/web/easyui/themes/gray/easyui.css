@@ -1523,3 +1523,11 @@ a.s-btn-plain-active .s-btn-downarrow{
 	*zoom:1;
 	overflow:hidden;
 }
+
+/**********************/
+.northbg{
+    background: url(images/panel_title.gif) repeat-x;
+}
+.westhbg{
+    background: url(images/panel_title_h.jpg) repeat-y;
+}
