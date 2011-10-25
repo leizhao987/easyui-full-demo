@@ -67,7 +67,7 @@ var G = (function(){
                 }
                 document.getElementsByTagName("head")[0].appendChild(script);
             }else{
-                $.getScript(__rootPath+"/"+url, function(){
+                jQuery.getScript(__rootPath+"/"+url, function(){
                     if (callback){
                         callback.call();
                     }
@@ -83,7 +83,7 @@ var G = (function(){
             document.getElementsByTagName('head')[0].appendChild(link);
         },
         importMD: function(name, callback) {
-            if (G.module[name].ns && G.config.dev) { 
+            if (G.module[name].ns && !G.config.dev) { 
                 callback.call(G.module[name].ns);  
                 return;
             }
@@ -139,7 +139,8 @@ var G = (function(){
                 });
             }
         },
-        logout:function(msg){
+        print:function(msg){
+			if(!G.config.dev) return;
             if (window.console && window.console.log) {
                 window.console.log(msg);
             }else if (window.opera && window.opera.postError) {
@@ -147,9 +148,6 @@ var G = (function(){
             }else{
                 throw new Error(msg);
             }
-        },
-        $:function(cls){
-            return $(cls,G.config.container);
         },
         window:function(option){
             if(!option.target){
@@ -160,21 +158,21 @@ var G = (function(){
         alert:function(content,icon){
             switch (icon) {
                 case "e":
-                    $.messager.alert("系统提示",content,'error');
+                    jQuery.messager.alert("系统提示",content,'error');
                     break;
                 case "q":
-                    $.messager.alert("系统提示",content,'question');
+                    jQuery.messager.alert("系统提示",content,'question');
                     break;
                 case "w":
-                    $.messager.alert("系统提示",content,'warning');
+                    jQuery.messager.alert("系统提示",content,'warning');
                     break;
                 default:
-                    $.messager.alert("系统提示",content);
+                    jQuery.messager.alert("系统提示",content);
                     break;
             }
         },
         confirm:function(content,cb){
-            $.messager.confirm("系统提示",content,function(r){
+            jQuery.messager.confirm("系统提示",content,function(r){
                 if(typeof cb == "function"){
                     cb.call(this,r);
                 }else{
@@ -183,7 +181,7 @@ var G = (function(){
             });
         },
         msg:function(content,icon){
-            $.remind({
+            jQuery.remind({
                 msg:content,
                 icon:icon||"success",
                 title:"系统提示"
@@ -208,7 +206,7 @@ var G = (function(){
                 }
             };
             
-            config = $.extend({}, defaultConfig, config || {});
+            config = jQuery.extend({}, defaultConfig, config || {});
             var target = $('#'+config.id);
             
             if(config.search){
@@ -248,7 +246,7 @@ var G = (function(){
                             onComplete:function(){
                                 var cbv=[];
                                 var fields = target.datagrid('getColumnFields');
-                                $.each(fields,function(i,v){
+                                jQuery.each(fields,function(i,v){
                                     if(v){
                                         var opt = target.datagrid('getColumnOption',v);
                                         if(opt.title && !opt.noSearch){
@@ -295,7 +293,7 @@ var G = (function(){
                     return "cursor: default;";
                 }
             };
-            config = $.extend({}, defaultConfig, config || {});
+            config = jQuery.extend({}, defaultConfig, config || {});
             var target;
            
             if(config.id){
@@ -329,7 +327,7 @@ var G = (function(){
                             onComplete:function(){
                                 var cbv=[];
                                 var fields = target.datagrid('getColumnFields');
-                                $.each(fields,function(i,v){
+                                jQuery.each(fields,function(i,v){
                                     if(v){
                                         var opt = target.datagrid('getColumnOption',v);
                                         if(opt.title){
